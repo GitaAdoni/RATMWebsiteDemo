@@ -52,7 +52,24 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .nav {
+    background-image: url(/assets/images/menu-icon.png);
+    width: 45px;
+    height: 45px;
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-grow: 0
+
+  }
+  .nav ul {
     display: none;
+  }
+  .header {
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .container {
+    padding: 20px;
   }
 }
 
