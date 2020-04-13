@@ -14,6 +14,7 @@ section {
   font-family: "Rajdhani";
   font-size: 16px;
   color: white;
+  padding: 20px 0;
 }
 
 .band-pic {
@@ -39,8 +40,56 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 .band-member-name {
   font-weight: bold;
+}
+
+.band-profiles {
+  display: flex;
+  justify-content: space-around;
+}
+
+.milestones {
+  display: flex;
+}
+
+.decade {
+  padding: 40px
+}
+
+.heading {
+  text-align: center;
+}
+
+.decade ul>li {
+  padding: 10px;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .band-pic {
+    width: 100%;
+  }
+
+  .milestones {
+    flex-direction: column;
+  }
+
+  .decade {
+    padding: 20px 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+  .band-profiles {
+    flex-direction: column;
+  }
 }
