@@ -2,24 +2,30 @@
   font-family: CabinSketch;
   src: url(/assets/fonts/CabinSketch-Bold.ttf);
 }
-.container {
+
+body {
   background-color: black;
-  /* width: 1320px;
-  height: 880px; */
+}
+
+.container {
   padding: 40px;
 }
+
 .header {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
+
 .logo {
   width: 180px;
   margin-right: 4%;
 }
+
 .logo img {
   width: 100%
 }
+
 .nav {
   font-family: "CabinSketch";
   font-size: 20px;
@@ -34,18 +40,21 @@
   padding: 0;
   list-style-type: none;
 }
+
 .nav li {
   display: inline-block;
   /* margin-left: 107px; */
-
 }
+
 .hero {
   overflow: hidden;
   height: 90%;
 }
-.hero img{
+
+.hero img {
   width: 100%;
 }
+
 /* * {
   box-sizing: border-box;
 } */
@@ -59,15 +68,17 @@
     background-position: center;
     background-repeat: no-repeat;
     flex-grow: 0
-
   }
+
   .nav ul {
     display: none;
   }
+
   .header {
     justify-content: space-between;
     margin-bottom: 20px;
   }
+
   .container {
     padding: 20px;
   }
@@ -81,16 +92,14 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px){
-
-}
+@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .nav {
     font-size: 20px
-    }
   }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}

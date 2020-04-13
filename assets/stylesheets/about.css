@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Rajdhani;
+  src: url(/assets/fonts/Rajdhani-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Rajdhani;
+  src: url(/assets/fonts/Rajdhani-Bold.ttf);
+  font-weight: bold;
+}
+
+section {
+  font-family: "Rajdhani";
+  font-size: 16px;
+  color: white;
+}
+
+.band-pic {
+  width: 800px;
+  float: right;
+  padding: 0 0 20px 20px;
+}
+
+.band-member-pic {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+}
+
+.band-member-pic img {
+  max-width: 200px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.band-member-name {
+  font-weight: bold;
+}
