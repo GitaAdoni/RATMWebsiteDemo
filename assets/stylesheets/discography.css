@@ -19,6 +19,9 @@ body {
   font-size: 16px;
   justify-content: space-between;
   align-items: stretch;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .album-details {
@@ -29,6 +32,15 @@ body {
 .album-cover {
   margin-bottom: 20px;
   text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .all-albums-container {
+    flex-direction: column;
+  }
+  .album-cover img {
+    width: 100%;
+  }
 }
 
 .album-release-date {
@@ -51,4 +63,8 @@ body {
     padding-left: 0;
     list-style-position: inside;
     list-style-type: decimal-leading-zero;
+}
+
+.track-length {
+  float: right;
 }

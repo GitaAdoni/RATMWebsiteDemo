@@ -15,12 +15,13 @@ section {
   font-size: 16px;
   color: white;
   padding: 20px 0;
+  text-align: justify;
 }
 
 .band-pic {
   width: 800px;
   float: right;
-  padding: 0 0 20px 20px;
+  padding: 20px 0 20px 40px;
 }
 
 .band-member-pic {
@@ -54,10 +55,12 @@ section {
 
 .milestones {
   display: flex;
+  border-top: 0.5px solid white;
 }
 
 .decade {
-  padding: 40px
+  padding: 0 100px;
+  flex: 1;
 }
 
 .heading {

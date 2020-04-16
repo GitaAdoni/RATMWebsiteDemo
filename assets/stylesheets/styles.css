@@ -28,9 +28,19 @@ body {
 
 .nav {
   font-family: "CabinSketch";
-  font-size: 20px;
+  font-size: 24px;
   color: white;
   flex-grow: 1;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.nav a.active {
+  border-bottom: 2px solid #c80000;
 }
 
 .nav ul {
