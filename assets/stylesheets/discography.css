@@ -1,1 +1,39 @@
+@font-face {
+  font-family: Rajdhani;
+  src: url(/assets/fonts/Rajdhani-Regular.ttf);
+  font-weight: normal;
+}
 
+@font-face {
+  font-family: Rajdhani;
+  src: url(/assets/fonts/Rajdhani-Bold.ttf);
+  font-weight: bold;
+}
+
+body {
+  color: white;
+}
+
+.album-container {
+  display: flex;
+  font-size: 16px;
+}
+
+.album-cover {
+  margin-bottom: 20px;
+}
+
+.album-release-date {
+  margin-bottom: 20px;
+}
+
+.album-title, .album-release-date {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  font-family: "CabinSketch";
+}
+
+.album-summary, .album-track-listing {
+  font-family: "Rajdhani"
+}
