@@ -14,13 +14,21 @@ body {
   color: white;
 }
 
-.album-container {
+.all-albums-container {
   display: flex;
   font-size: 16px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.album-details {
+  padding: 20px;
+  flex-grow: 1;
 }
 
 .album-cover {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .album-release-date {
@@ -35,5 +43,6 @@ body {
 }
 
 .album-summary, .album-track-listing {
-  font-family: "Rajdhani"
+  font-family: "Rajdhani";
+  text-align: justify;
 }
