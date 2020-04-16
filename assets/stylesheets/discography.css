@@ -23,7 +23,7 @@ body {
 
 .album-details {
   padding: 20px;
-  flex-grow: 1;
+  flex: 1;
 }
 
 .album-cover {
@@ -45,4 +45,10 @@ body {
 .album-summary, .album-track-listing {
   font-family: "Rajdhani";
   text-align: justify;
+}
+
+.album-track-listing ol{
+    padding-left: 0;
+    list-style-position: inside;
+    list-style-type: decimal-leading-zero;
 }
