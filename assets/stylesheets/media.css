@@ -1,0 +1,41 @@
+.media-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .media-photo {
+    width: 100%;
+  }
+
+  .media-title {
+    font-family: "CabinSketch";
+    font-size: 25px;
+    color: white;
+    /* text-align: center; */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    /* text-decoration: underline; */
+    /* text-decoration-color: #c80000; */
+    /* line-height: 30px; */
+    border-bottom: 2px solid #c80000;
+    width: fit-content;
+}
+.video-container {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.photo-box {
+  width: 320px;
+  padding: 30px 0;
+}
+.photo-container {
+  display: block;
+  width: 300px;
+  height: 200px;
+  transition: all .3s ease-in-out;
+}
+.photo-container:hover {
+  width: 320px;
+}
