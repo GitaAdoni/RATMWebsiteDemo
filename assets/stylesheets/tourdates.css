@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Rajdhani;
+  src: url(/assets/fonts/Rajdhani-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Rajdhani;
+  src: url(/assets/fonts/Rajdhani-Bold.ttf);
+  font-weight: bold;
+}
+
+.tablecontainer {
+  display: flex;
+  justify-content: center;
+  font-family: Rajdhani;
+}
+
+.tablecontainer thead {
+  font-size: 20px;
+}
+
+.tablecontainer a {
+  color: white;
+}
+.tablecontainer table {
+  border: 1px solid white;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.tablecontainer td, .tablecontainer th {
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+
+}
