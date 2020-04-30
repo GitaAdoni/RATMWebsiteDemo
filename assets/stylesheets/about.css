@@ -17,11 +17,14 @@ section {
   padding: 20px 0;
   text-align: justify;
 }
-
+.about {
+  column-count: 3;
+  column-gap: 30px;
+}
 .band-pic {
-  width: 800px;
-  float: right;
-  padding: 20px 0 20px 40px;
+  width: 500px;
+  /* float: right; */
+  /* padding: 20px 0 20px 40px; */
 }
 
 .band-member-pic {
