@@ -35,3 +35,24 @@
   text-align: center;
 
 }
+
+@media only screen and (max-width: 768px) {
+  .tablecontainer table {
+    width: 100%;
+  }
+  .tablecontainer td, .tablecontainer th {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tablecontainer {
+    font-size: 12px;
+  }
+  .tablecontainer thead {
+    font-size: 16px;
+  }
+  .tablecontainer td, .tablecontainer th {
+    padding: 5px;
+  }
+}
