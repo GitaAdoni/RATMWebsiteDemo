@@ -4,15 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ratm</title>
+    
+    <!-- Links to styles (css) and scripts (javascript) -->
     <link rel="stylesheet" href="assets/stylesheets/styles.css">
+    <script src="./assets/javascripts/jquery.min.js"></script>
+    <script src="./assets/javascripts/main.js" charset="utf-8"></script>
   </head>
+
+
   <body>
+      <!-- Setting the logo and nav elements for the homepage. -->
     <div class="container">
       <div class="header">
         <div class="logo">
           <img src="assets/images/logo.png" alt="Rage Against The Machine Logo">
         </div>
-        <div class="nav">
+        <div class="nav" id="nav">
           <ul>
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -21,10 +28,19 @@
             <li><a href="merchandise.html">Merchandise</a></li>
             <li><a href="tourdates.html">Tour Dates</a></li>
           </ul>
+          <div class="menu-icon" id="menu-icon" onclick="myFunction()">&#9776;</div>
         </div>
       </div>
+
+      <!-- Placing the hero images for the homepage -->
       <div class="hero">
         <img src="assets/images/rage-against-the-machine.jpg" alt="Rage Against The Machine Band Photo">
+      </div>
+      <div class="hero">
+        <img src="assets/images/homepage2.jpg" alt="Rage Against The Machine Band Photo2">
+      </div>
+      <div class="hero">
+        <img src="assets/images/homepage3.jpg" alt="Rage Against The Machine Band Photo3">
       </div>
     </div>
   </body>

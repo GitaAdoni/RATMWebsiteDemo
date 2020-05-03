@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="assets/stylesheets/styles.css">
   <link rel="stylesheet" href="assets/stylesheets/merchandise.css">
   <script type="text/javascript" src="assets/javascripts/merch-filter.js"></script>
-  <!-- <link rel="stylesheet" href="assets/stylesheets/layout.css"> -->
+  <script src="./assets/javascripts/jquery.min.js"></script>
+  <script src="./assets/javascripts/main.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -17,7 +18,7 @@
       <div class="logo">
         <img src="assets/images/logo.png" alt="Rage Against The Machine Logo">
       </div>
-      <div class="nav">
+      <div class="nav" id="nav">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a class=href="about.html">About</a></li>
@@ -26,6 +27,7 @@
           <li><a class="active" href="merchandise.html">Merchandise</a></li>
           <li><a href="tourdates.html">Tour Dates</a></li>
         </ul>
+        <div class="menu-icon" id="menu-icon" onclick="myFunction()">&#9776;</div>
       </div>
     </div>
     <section class="filter-section">

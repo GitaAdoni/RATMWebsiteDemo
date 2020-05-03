@@ -57,13 +57,19 @@ body {
   /* margin-left: 107px; */
 }
 
+.nav .menu-icon {
+  display: none;
+}
+
 .hero {
   overflow: hidden;
   height: 90%;
+  margin-bottom: 5%;
 }
 
 .hero img {
   width: 100%;
+
 }
 
 /* * {
@@ -72,19 +78,37 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .nav {
-    background-image: url(/assets/images/menu-icon.png);
-    width: 45px;
-    height: 45px;
-    background-size: 30px 30px;
-    background-position: center;
-    background-repeat: no-repeat;
-    flex-grow: 0
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
   }
 
+  .nav .menu-icon{
+    display: block;
+    font-size: 36px;
+    text-align: right;
+    width: 45px;
+  }
   .nav ul {
     display: none;
   }
 
+  .nav.responsive ul {
+    font-size: 16px;
+    display: block;
+    position: absolute;
+    top: 45px;
+    text-align: right;
+    right: 0;
+    background-color: black;
+    padding: 20px 0 20px 20px;
+    z-index: 100;
+  }
+
+  .nav.responsive li {
+    padding: 5px 0;
+    display: block;
+  }
   .header {
     justify-content: space-between;
     margin-bottom: 20px;
