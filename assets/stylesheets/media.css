@@ -22,9 +22,15 @@
     border-bottom: 2px solid #c80000;
     width: fit-content;
 }
+.media-container.videos {
+  justify-content: center;
+}
 .video-container {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+.video-container iframe {
+
 }
 .photo-box {
   width: 320px;
@@ -38,4 +44,28 @@
 }
 .photo-container:hover {
   width: 320px;
+}
+
+@media only screen and (min-width: 320px) {
+  .media-container {
+    justify-content: center;
+  }
+  .photo-box {
+    display: flex;
+    justify-content: center;
+  }
+  .video-container iframe {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .photo-box {
+    display: block;
+  }
+  .media-container {
+    justify-content: space-between;
+  }
+  .video-container iframe {
+    width: 560px;
+  }
 }
