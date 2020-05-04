@@ -22,9 +22,7 @@ section {
   column-gap: 30px;
 }
 .band-pic {
-  width: 500px;
-  /* float: right; */
-  /* padding: 20px 0 20px 40px; */
+  width: 100%;
 }
 
 .band-member-pic {
@@ -62,7 +60,7 @@ section {
 }
 
 .decade {
-  padding: 0 100px;
+  padding: 0 25px;
   flex: 1;
 }
 
@@ -79,9 +77,15 @@ section {
   font-weight: bold;
 }
 
+
 @media only screen and (max-width: 768px) {
   .band-pic {
     width: 100%;
+  }
+
+  .about {
+    column-count: 2;
+    column-gap: 30px;
   }
 
   .milestones {
@@ -92,7 +96,17 @@ section {
     padding: 20px 0;
   }
 }
-
+@media only screen and (max-width: 425px) {
+  .about {
+    column-count: 1;
+  }
+  .decade ul {
+    padding: 0;
+  }
+  .decade ul>li {
+    list-style: none;
+  }
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 992px) {
   .band-profiles {
