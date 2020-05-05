@@ -1,18 +1,18 @@
 /* Defines font family for the site. */
 @font-face {
   font-family: CabinSketch;
-  src: url(./assets/fonts/CabinSketch-Bold.ttf);
+  src: url(../fonts/CabinSketch-Bold.ttf);
 }
 
 @font-face {
   font-family: Rajdhani;
-  src: url(./assets/fonts/Rajdhani-Regular.ttf);
+  src: url(../fonts/Rajdhani-Regular.ttf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: Rajdhani;
-  src: url(./assets/fonts/Rajdhani-Bold.ttf);
+  src: url(../fonts/Rajdhani-Bold.ttf);
   font-weight: bold;
 }
 
