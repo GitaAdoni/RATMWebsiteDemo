@@ -17,14 +17,18 @@ section {
   padding: 20px 0;
   text-align: justify;
 }
+/* Sets body copy in 3 columns. */
 .about {
   column-count: 3;
   column-gap: 30px;
 }
+
+/* Sets band pic within the margins of the first column of body copy. */
 .band-pic {
   width: 100%;
 }
 
+/* Sets the band member pics within a white circle in this section. */
 .band-member-pic {
   margin-bottom: 20px;
   border-radius: 50%;
@@ -54,6 +58,7 @@ section {
   justify-content: space-around;
 }
 
+/* Sets a flex view for the milestones section. */
 .milestones {
   display: flex;
   border-top: 0.5px solid white;
@@ -96,6 +101,7 @@ section {
     padding: 20px 0;
   }
 }
+
 @media only screen and (max-width: 425px) {
   .about {
     column-count: 1;

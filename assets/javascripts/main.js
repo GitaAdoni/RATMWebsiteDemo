@@ -1,3 +1,5 @@
+// Defining the function that changes icon to cross sign and adds class.
+
 function myFunction() {
     var x = document.getElementById("nav");
     var menuIcon = document.getElementById('menu-icon');

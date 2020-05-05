@@ -4,17 +4,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- The title appears on the top at the tab of the browser window. -->
   <title>ratm</title>
+
+  <!-- Links to styles (css) and scripts (javascript) -->
   <link rel="stylesheet" href="assets/stylesheets/styles.css">
   <link rel="stylesheet" href="assets/stylesheets/merchandise.css">
   <script type="text/javascript" src="assets/javascripts/merch-filter.js"></script>
   <script src="./assets/javascripts/jquery.min.js"></script>
   <script src="./assets/javascripts/main.js" charset="utf-8"></script>
+
+  <!-- Link to Font Awesome - social media icons. -->
   <script src="https://kit.fontawesome.com/f4e9a589bb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="container">
+
     <div class="header">
       <div class="logo">
         <img src="assets/images/logo.png" alt="Rage Against The Machine Logo">
@@ -25,12 +32,15 @@
           <li><a class=href="about.html">About</a></li>
           <li><a href="discography.html">Discography</a></li>
           <li><a href="media.html">Media</a></li>
+          <!-- Indicates that the merchandise page is active. -->
           <li><a class="active" href="merchandise.html">Merchandise</a></li>
           <li><a href="tourdates.html">Tour Dates</a></li>
         </ul>
+        <!-- References javascript for responsive menu to show cross/ hamburger icon. -->
         <div class="menu-icon" id="menu-icon" onclick="myFunction()">&#9776;</div>
       </div>
 
+      <!-- Places social media icons with links. -->
       <div class="social-media-icons">
           <a href="https://www.facebook.com/RATM/" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/rageagainstthemachine/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -39,14 +49,15 @@
       </div>
 
     </div>
+
     <section class="filter-section">
-        <!-- Control buttons -->
+        <!-- Filter buttons -->
         <div id="btn-container">
             <button class="btn active-b" onclick="filterSelection('t-shirts')">T-shirts</button>
             <button class="btn" onclick="filterSelection('hoodies')">Hoodies</button>
 
         </div>
-        <div class="">
+        <!-- T-shirt pics with links. -->
             <div class="filter-div t-shirts">
                 <div class="merch-container">
                   <a href="https://rageagainstthemachine.probitymerch.com/products/bola-album-cover-tracks-black-tee" target="_blank"><img class="tee1" src="./assets/images/tee1.png"/></a>
@@ -67,6 +78,8 @@
                   <a href="https://rageagainstthemachine.probitymerch.com/products/battle-spray-jumbo-print-tee" target="_blank"><img class="tee1" src="./assets/images/tee6.png"/></a>
                 </div>
             </div>
+
+            <!-- Hoodie pics with links. -->
             <div class="filter-div hoodies">
 
                 <div class="merch-container">

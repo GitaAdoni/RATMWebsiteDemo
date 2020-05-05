@@ -4,11 +4,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The title appears on the top at the tab of the browser window. -->
   <title>ratm</title>
+
+  <!-- Links to styles (css) and scripts (javascript) -->
   <link rel="stylesheet" href="assets/stylesheets/styles.css">
   <link rel="stylesheet" href="assets/stylesheets/about.css">
   <script src="./assets/javascripts/jquery.min.js"></script>
   <script src="./assets/javascripts/main.js" charset="utf-8"></script>
+
+  <!-- Link to Font Awesome - social media icons. -->
   <script src="https://kit.fontawesome.com/f4e9a589bb.js" crossorigin="anonymous"></script>
 </head>
 
@@ -21,15 +27,19 @@
       <div class="nav" id="nav">
         <ul>
           <li><a href="/index.html">Home</a></li>
+
+          <!-- Indicates that the about page is active. -->
           <li><a class="active" href="/about.html">About</a></li>
           <li><a href="/discography.html">Discography</a></li>
           <li><a href="/media.html">Media</a></li>
           <li><a href="/merchandise.html">Merchandise</a></li>
           <li><a href="/tourdates.html">Tour Dates</a></li>
         </ul>
+
+        <!-- References javascript for responsive menu to show cross/ hamburger icon. -->
         <div class="menu-icon" id="menu-icon" onclick="myFunction()">&#9776;</div>
       </div>
-
+      <!-- Places social media icons with links. -->
       <div class="social-media-icons">
           <a href="https://www.facebook.com/RATM/" target="_blank"><i class="fab fa-facebook-f"></i></a>
           <a href="https://www.instagram.com/rageagainstthemachine/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -40,7 +50,7 @@
     </div>
     <!-- Bio with band photo -->
     <section>
-      <div class="col-xs-12 about">
+      <div class="about">
         <img class="band-pic" src="./assets/images/about-band-pic.jpg" alt="Rage Against The Machine band pic">
         <p>Rage Against the Machine (often abbreviated as RATM and shortened to simply Rage) is an American rock band from Los Angeles, California. Formed in 1991, the group consists of vocalist Zack de la Rocha, bassist and backing vocalist Tim Commerford, guitarist Tom Morello, and drummer Brad Wilk. Their songs express revolutionary political views. As of 2010, they had sold over 16 million records worldwide. The band was nominated for induction into the Rock & Roll Hall of Fame in their first year of eligibility in 2017 and 2018, although both bids failed.</p>
         <p>Rage Against the Machine released its eponymous debut album in 1992 to commercial and critical success, leading to a slot in the 1993 Lollapalooza festival; in 2003, the album was ranked number 368 on Rolling Stone's list of the 500 greatest albums of all time. The follow-up albums, Evil Empire (1996) and The Battle of Los Angeles (1999), were also successful; both albums topped the Billboard 200 chart. During their initial nine-year run, Rage Against the Machine became one of the most popular and influential bands in music history,[5] and had a large influence on the nu metal genre which came to prominence during the second half of the 1990s. They were also ranked No. 33 on VH1's 100 Greatest Artists of Hard Rock.
@@ -54,8 +64,8 @@
     </section>
     <!-- Band members -->
     <section>
-      <div class="col-xs-12 band-profiles">
-        <div class="col-xs-3 profile">
+      <div class="band-profiles">
+        <div class="profile">
           <div class="band-member-pic">
             <img src="./assets/images/zack-de-la-rocha.png" alt="zack-de-la-rocha-pic">
           </div>
@@ -64,7 +74,7 @@
           <div class="instrument">
           Vocals</div>
         </div>
-        <div class="col-xs-3 profile">
+        <div class="profile">
           <div class="band-member-pic">
             <img src="./assets/images/tom-morello.png" alt="tom-morello-pic">
           </div>
@@ -73,7 +83,7 @@
           <div class="instrument">
           Guitars</div>
         </div>
-        <div class="col-xs-3 profile">
+        <div class="profile">
           <div class="band-member-pic">
             <img src="./assets/images/tim-commerford.png" alt="tim-commerford-pic">
           </div>
@@ -82,7 +92,7 @@
           <div class="instrument">
           Bass and Backing Vocals</div>
         </div>
-        <div class="col-xs-3 profile">
+        <div class="profile">
           <div class="band-member-pic">
             <img src="./assets/images/brad-wilk.png" alt="brad-wilk-pic">
           </div>
@@ -98,114 +108,109 @@
     <section class="milestones">
 
       <!-- 2010s -->
-<div class="decade">
-  <h2 class="heading">2010s</h2>
-  <ul>
-    <li>
-      <div class="date">
-        09/11/2015
+      <div class="decade">
+        <h2 class="heading">2010s</h2>
+        <ul>
+          <li>
+            <div class="date">
+              09/11/2015
+            </div>
+            <div class="details">
+              The Finsbury Park 2010 victory gig is released on DVD and Blu-ray called 'Live At Finsbury Park.'
+            </div>
+          </li>
+
+        <li>
+          <div class="date">
+            11/27/2012
+          </div>
+          <div class="details">
+            'Rage Against The Machine – XX (20th Anniversary)' editions are released to celebrate the band's debut album.
+          </div>
+        </li>
+
+        <li>
+          <div class="date">
+            07/30/2011
+          </div>
+          <div class="details">
+            Rage Against The Machine perform at the L.A. Rising festival.
+          </div>
+        </li>
+
+        <li>
+          <div class="date">
+            10/2010
+          </div>
+          <div class="details">
+            Rage perform at the SWU Festival in Brazil, the Maquinaria Festival in Chile, and Pepsi Music Festival in Argentina.
+          </div>
+        </li>
+
+        <li>
+          <div class="date">
+            07/23/2010
+          </div>
+          <div class="details">
+            Rage return to Los Angeles for their first U.S. show in two years, raising $300,000 to benefit Arizona organizations fighting the SB1070 immigration law.
+          </div>
+        </li>
+
+        </ul>
       </div>
-      <div class="details">
-        The Finsbury Park 2010 victory gig is released on DVD and Blu-ray called 'Live At Finsbury Park.'
+      <!-- 2000s -->
+      <div class="decade">
+        <h2 class="heading">2000s</h2>
+        <ul>
+
+          <li>
+            <div class="date">
+              12/2009
+            </div>
+            <div class="details">
+            "Killing in the Name" becomes a Christmas #1 on the U.K. Singles chart after fans launch a grassroots campaign to prevent 'The X Factor' from getting the top spot.
+            </div>
+          </li>
+
+          <li>
+            <div class="date">
+            9/2008
+            </div>
+            <div class="details">
+            Rage perform at the Target Center in Minneapolis during the Republican National Convention.
+            </div>
+          </li>
+
+          <li>
+            <div class="date">
+            08/02/2008
+            </div>
+            <div class="details">
+            Rage co-headline the Lollapalooza Music Festival in Chicago.
+            </div>
+          </li>
+
+          <li>
+            <div class="date">
+            8/2008
+            </div>
+            <div class="details">
+            Rage Against The Machine headline the Tent State Music Festival to End the War during the Democratic National Convention in Denver.
+            </div>
+          </li>
+
+          <li>
+            <div class="date">
+            7/2008
+            </div>
+            <div class="details">
+            Rage play Scotland's T in the Park and the Oxegen Festival in Ireland.
+            </div>
+          </li>
+
+        </ul>
       </div>
-    </li>
-
-  <li>
-    <div class="date">
-      11/27/2012
-    </div>
-    <div class="details">
-      'Rage Against The Machine – XX (20th Anniversary)' editions are released to celebrate the band's debut album.
-    </div>
-  </li>
-
-  <li>
-    <div class="date">
-      07/30/2011
-    </div>
-    <div class="details">
-      Rage Against The Machine perform at the L.A. Rising festival.
-    </div>
-  </li>
-
-  <li>
-    <div class="date">
-      10/2010
-    </div>
-    <div class="details">
-      Rage perform at the SWU Festival in Brazil, the Maquinaria Festival in Chile, and Pepsi Music Festival in Argentina.
-    </div>
-  </li>
-
-  <li>
-    <div class="date">
-      07/23/2010
-    </div>
-    <div class="details">
-      Rage return to Los Angeles for their first U.S. show in two years, raising $300,000 to benefit Arizona organizations fighting the SB1070 immigration law.
-    </div>
-  </li>
-
-  </ul>
-</div>
-
-
-<!-- 2000s -->
-<div class="decade">
-  <h2 class="heading">2000s</h2>
-  <ul>
-
-    <li>
-      <div class="date">
-        12/2009
-      </div>
-      <div class="details">
-      "Killing in the Name" becomes a Christmas #1 on the U.K. Singles chart after fans launch a grassroots campaign to prevent 'The X Factor' from getting the top spot.
-      </div>
-    </li>
-
-    <li>
-      <div class="date">
-      9/2008
-      </div>
-      <div class="details">
-      Rage perform at the Target Center in Minneapolis during the Republican National Convention.
-      </div>
-    </li>
-
-    <li>
-      <div class="date">
-      08/02/2008
-      </div>
-      <div class="details">
-      Rage co-headline the Lollapalooza Music Festival in Chicago.
-      </div>
-    </li>
-
-    <li>
-      <div class="date">
-      8/2008
-      </div>
-      <div class="details">
-      Rage Against The Machine headline the Tent State Music Festival to End the War during the Democratic National Convention in Denver.
-      </div>
-    </li>
-
-    <li>
-      <div class="date">
-      7/2008
-      </div>
-      <div class="details">
-      Rage play Scotland's T in the Park and the Oxegen Festival in Ireland.
-      </div>
-    </li>
-
-  </ul>
-</div>
-
-
     </section>
-
   </div>
 </body>
 

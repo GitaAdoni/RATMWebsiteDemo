@@ -20,6 +20,7 @@
   font-size: 20px;
 }
 
+/* Sets the buy ticket links in white color. */
 .tablecontainer a {
   color: white;
 }

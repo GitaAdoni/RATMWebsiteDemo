@@ -1,32 +1,39 @@
+/* Defines font family for the site. */
+
 @font-face {
   font-family: CabinSketch;
   src: url(/assets/fonts/CabinSketch-Bold.ttf);
 }
 
+/* Defines background color and font color for the site. */
 body {
   background-color: black;
   color: white;
 }
 
+/* Sets padding for the container that holds all the elements in the index page. */
 .container {
   padding: 40px;
 }
 
+/* Defines the logo, nav and social media elements in the header. */
 .header {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
 
+/* Defines the container of the band logo. */
 .logo {
   width: 180px;
   margin-right: 4%;
 }
-
+/* Defines the width of the band logo within the logo container. */
 .logo img {
   width: 100%
 }
 
+/* Defines the nav elements in the header. */
 .nav {
   font-family: "CabinSketch";
   font-size: 24px;
@@ -36,16 +43,19 @@ body {
   justify-content: center;
 }
 
+/* Defines color of the nav elements (text). */
 .nav a {
   color: white;
   text-decoration: none;
 
 }
 
+/* Places a red line underneath the active page header. */
 .nav a.active {
   border-bottom: 2px solid #c80000;
 }
 
+/* Defines the unordered list of the nav elements. */
 .nav ul {
   display: flex;
   justify-content: space-between;
@@ -55,44 +65,46 @@ body {
   width: 80%;
 }
 
+/* Sets the nav elements next to the band logo. */
 .nav li {
   display: inline-block;
-  /* margin-left: 107px; */
 }
 
+/* Hides the hamburger icon on larger screens (non-mobile view). */
 .nav .menu-icon {
   display: none;
 }
-
+/* Sets a margin on the left of the social media icons. */
 .social-media-icons {
   margin-left: 20px;
 }
 
+/* Sets the color of the social media icons. */
 .social-media-icons a {
   color: #c80000;
   text-decoration: none;
 }
 
-
+/* Sets the size of the social media icons (Font Awesome). */
 .social-media-icons .fab {
   font-size: 20px;
   margin-left: 20px;
 }
 
+/* Defines the container that holds the hero images. */
 .hero {
   overflow: hidden;
   height: 90%;
   margin-bottom: 5%;
 }
 
+/* Defines size of the hero images inside the hero image container. */
 .hero img {
   width: 100%;
-
 }
 
-/* * {
-  box-sizing: border-box;
-} */
+
+/* Defines the view of responsive mode with hamburger icon and drop-down menu. */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .nav {
@@ -101,16 +113,20 @@ body {
     justify-content: flex-end;
   }
 
+/* Hamburger icon. */
   .nav .menu-icon{
     display: block;
     font-size: 36px;
     text-align: right;
     width: 45px;
   }
+
+  /* Hides nav elements in responsive view. */
   .nav ul {
     display: none;
   }
 
+/* Drop-down menu style for responsive mode. */
   .nav.responsive ul {
     font-size: 16px;
     display: block;
@@ -123,10 +139,12 @@ body {
     z-index: 100;
   }
 
+/* List item style for drop-down menu. */
   .nav.responsive li {
     padding: 5px 0;
     display: block;
   }
+  /* Header style for responsive mode. */
   .header {
     justify-content: space-between;
     margin-bottom: 20px;
@@ -138,6 +156,8 @@ body {
 }
 
 @media only screen and (min-width: 320px) {
+
+/* Nav view in responsive mode. */
   .nav {
     order: 3;
   }
@@ -145,11 +165,13 @@ body {
 .logo {
   width: 120px;
 }
+/* Places social media icons between logo and nav in responsive view. */
     .social-media-icons {
       order: 2;
       margin-left: 0;
     }
 
+/* Sets font size and margin for social media icons. */
     .social-media-icons .fab {
       font-size: 14px;
       margin-left: 5px;

@@ -9,26 +9,17 @@
 }
 
 .filter-div {
-    /* float: left;
-    background-color: #2196F3;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px; */
-    display: none;
-    /* Hidden by default */
+    display: none;     /* Hidden by default */
 }
 
 /* The "show" class is added to the filtered elements */
 .show {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .merch-container {
-  flex: 1 0 30%;
+  flex: 1 0 30%; /*flex-grow, flex-shrink and flex-basis*/
   text-align: center;
   padding: 40px 0;
 }
@@ -52,25 +43,11 @@
     background-color: #ddd;
 }
 
-/* Add a dark background to the active button */
+/* Add a red background to the active button */
 .btn.active-b {
     background-color: #c80000;
     color: white;
 }
-
-.merch-img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* .filter-section {
-  padding-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 500px
-} */
-
 
 @media screen and (max-width: 320px) {
   .merch-container, .merch-container img {
