@@ -1,8 +1,7 @@
 /* Defines font family for the site. */
-
 @font-face {
   font-family: CabinSketch;
-  src: url(/assets/fonts/CabinSketch-Bold.ttf);
+  src: url(./assets/fonts/CabinSketch-Bold.ttf);
 }
 
 /* Defines background color and font color for the site. */
@@ -28,6 +27,7 @@ body {
   width: 180px;
   margin-right: 4%;
 }
+
 /* Defines the width of the band logo within the logo container. */
 .logo img {
   width: 100%
@@ -47,7 +47,6 @@ body {
 .nav a {
   color: white;
   text-decoration: none;
-
 }
 
 /* Places a red line underneath the active page header. */
@@ -74,6 +73,7 @@ body {
 .nav .menu-icon {
   display: none;
 }
+
 /* Sets a margin on the left of the social media icons. */
 .social-media-icons {
   margin-left: 20px;
@@ -103,7 +103,6 @@ body {
   width: 100%;
 }
 
-
 /* Defines the view of responsive mode with hamburger icon and drop-down menu. */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -113,8 +112,8 @@ body {
     justify-content: flex-end;
   }
 
-/* Hamburger icon. */
-  .nav .menu-icon{
+  /* Hamburger icon. */
+  .nav .menu-icon {
     display: block;
     font-size: 36px;
     text-align: right;
@@ -126,7 +125,7 @@ body {
     display: none;
   }
 
-/* Drop-down menu style for responsive mode. */
+  /* Drop-down menu style for responsive mode. */
   .nav.responsive ul {
     font-size: 16px;
     display: block;
@@ -140,11 +139,12 @@ body {
     z-index: 100;
   }
 
-/* List item style for drop-down menu. */
+  /* List item style for drop-down menu. */
   .nav.responsive li {
     padding: 5px 0;
     display: block;
   }
+
   /* Header style for responsive mode. */
   .header {
     justify-content: space-between;
@@ -158,32 +158,33 @@ body {
 
 @media only screen and (min-width: 320px) {
 
-/* Nav view in responsive mode. */
+  /* Nav view in responsive mode. */
   .nav {
     order: 3;
   }
 
-.logo {
-  width: 120px;
-}
-/* Places social media icons between logo and nav in responsive view. */
-    .social-media-icons {
-      order: 2;
-      margin-left: 0;
-    }
+  .logo {
+    width: 120px;
+  }
 
-/* Sets font size and margin for social media icons. */
-    .social-media-icons .fab {
-      font-size: 14px;
-      margin-left: 5px;
-    }
+  /* Places social media icons between logo and nav in responsive view. */
+  .social-media-icons {
+    order: 2;
+    margin-left: 0;
+  }
+
+  /* Sets font size and margin for social media icons. */
+  .social-media-icons .fab {
+    font-size: 14px;
+    margin-left: 5px;
+  }
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .nav {
     font-size: 14px;
   }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -191,17 +192,19 @@ body {
   .logo {
     width: 120px;
   }
+
   .nav {
     order: 2;
   }
+
   .nav ul {
     width: 100%
   }
+
   .social-media-icons {
     order: 3;
     margin-left: 20px;
   }
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -209,14 +212,15 @@ body {
   .nav {
     font-size: 20px
   }
+
   .nav ul {
     width: 100%
   }
 
-    .social-media-icons .fab {
-      font-size: 20px;
-      margin-left: 20px;
-    }
+  .social-media-icons .fab {
+    font-size: 20px;
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -224,6 +228,7 @@ body {
     width: 180px;
   }
 }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .nav ul {
